@@ -1,0 +1,20 @@
+body {
+    padding-top: 56px;
+  }
+  .fixed{
+    margin-top: 60px;
+    position: fixed;
+    margin-left: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .text-success {
+    color: #28a745;
+}
+.text-danger {
+    color: #dc3545;
+}
+table {
+  width: 100%;
+}
