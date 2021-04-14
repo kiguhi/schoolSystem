@@ -19,7 +19,7 @@ if ($uppercase && $lowercase && $number && strlen($password) >= 8)
       $sql = $conn->prepare("INSERT INTO user(username,email,password,role,reg_date) VALUES
     ('$name','$email','$password','$role',NOW())");
     $sql->execute();
-    header('Location: student.php');
+    header('Location: students.php');
     exit();
     }elseif ($role='Admin') {
      $sql1="SELECT username,email FROM user WHERE username='$name' OR email='$email'";
